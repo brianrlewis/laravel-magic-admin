@@ -1,9 +1,11 @@
 {
     "name": "brianrlewis/laravel-magic-admin",
-    "description": "Laravel wrapper for magic admin",
+    "description": "Laravel integration for magic admin",
     "type": "library",
+    "keywords": ["laravel", "magic", "link", "fortmatic", "admin", "api", "sdk"],
     "require": {
-        "brianrlewis/magic-admin": "^1.0"
+        "brianrlewis/magic-admin": "^1.0",
+        "illuminate/support": "^6|^7"
     },
     "autoload": {
         "psr-4": {
@@ -22,5 +24,15 @@
             "name": "Brian Lewis",
             "email": "brlewis23@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BrianRLewis\\LaravelMagicAdmin\\ServiceProvider"
+            ],
+            "aliases": {
+                "Magic": "BrianRLewis\\LaravelMagicAdmin\\Facade"
+            }
+        }
+    }
 }
