@@ -16,7 +16,7 @@ Publish config file.
 php artisan vendor:publish --tag=config --provider="BrianRLewis\LaravelMagicAdmin\ServiceProvider"
 ```
 
-Obtain your secret api key by creating an account at https://magic.link/
+Obtain your secret api key by creating an account at https://magic.link
 
 Add MAGIC_SECRET_API_KEY=sk_XXXX_XXXXXXXXXXXXXXXX to your .env file.
 
