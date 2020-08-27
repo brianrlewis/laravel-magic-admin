@@ -126,16 +126,9 @@ $rules = [
 ];
 
 $finder = Finder::create()
-    ->notPath('bootstrap')
-    ->notPath('storage')
-    ->notPath('vendor')
-    ->in(getcwd())
-    ->name('*.php')
-    ->notName('*.blade.php')
-    ->notName('index.php')
-    ->notName('server.php')
-    ->ignoreDotFiles(true)
-    ->ignoreVCS(true);
+    ->in([
+        __DIR__.'/src',
+    ]);
 
 return Config::create()
     ->setFinder($finder)
