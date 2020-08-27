@@ -34,5 +34,8 @@
                 "Magic": "BrianRLewis\\LaravelMagicAdmin\\Facade"
             }
         }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16"
     }
 }
