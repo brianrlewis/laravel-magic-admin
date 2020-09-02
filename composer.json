@@ -5,7 +5,7 @@
     "keywords": ["laravel", "magic", "link", "fortmatic", "admin", "api", "sdk", "passwordless", "authentication"],
     "require": {
         "brianrlewis/magic-admin": "^1.0",
-        "illuminate/support": "^6|^7"
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0"
     },
     "autoload": {
         "psr-4": {
