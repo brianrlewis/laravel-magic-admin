@@ -1,8 +1,8 @@
 {
     "name": "brianrlewis/laravel-magic-admin",
-    "description": "Laravel integration for magic admin",
+    "description": "Laravel integration for Magic Admin SDK",
     "type": "library",
-    "keywords": ["laravel", "magic", "link", "fortmatic", "admin", "api", "sdk"],
+    "keywords": ["laravel", "magic", "link", "fortmatic", "admin", "api", "sdk", "passwordless", "authentication"],
     "require": {
         "brianrlewis/magic-admin": "^1.0",
         "illuminate/support": "^6|^7"
