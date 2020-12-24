@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This package has been deprecated in favor of the [official version](https://github.com/magiclabs/magic-laravel).
+
 # Laravel Magic Admin SDK
 
 Laravel integration for Magic Admin SDK (https://github.com/brianrlewis/php-magic-admin)
